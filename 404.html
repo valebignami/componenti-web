@@ -6,10 +6,11 @@
 <title>Componenti d'impianto</title>
 <!-- Senza questo, un indirizzo sbagliato su questo sito mostra la pagina 404
      di GitHub, con tanto di marchio: sembra che il sito rimandi a GitHub.
-     Cosi' invece si torna sempre al modulo d'accesso. -->
-<meta http-equiv="refresh" content="0; url=/componenti/">
+     Cosi' invece si torna sempre al modulo d'accesso.
+     Il rimando e' relativo: cosi' non si rompe se il repository cambia nome. -->
+<meta http-equiv="refresh" content="0; url=./">
 <body style="font:16px system-ui;margin:2rem">
-<p>Pagina non trovata. <a href="/componenti/">Torna all'accesso</a>.</p>
-<script>location.replace("/componenti/");</script>
+<p>Pagina non trovata. <a href="./">Torna all'accesso</a>.</p>
+<script>location.replace("./");</script>
 </body>
 </html>
